@@ -13,7 +13,6 @@ import { UserModel } from '../models/user'
 import * as models from '../models/index'
 import { type User } from '../data/types'
 import * as utils from '../lib/utils'
-WHATSAPP_PASSWORD = "1234"
 // vuln-code-snippet start loginAdminChallenge loginBenderChallenge loginJimChallenge
 export function login () {
   function afterLogin (user: User, res: Response, next: NextFunction) {
